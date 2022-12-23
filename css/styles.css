@@ -226,13 +226,13 @@ body {
     line-height: 1.19;
     letter-spacing: 0.04em;
     color: var(--primary-white-color);
-    background: var(--iris-color);
+    background-color: var(--iris-color);
     transition: background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
 }
 
 .button-order:hover,
 .button-order:focus {
-    background-color: var(--iris-color);
+    background-color: var(--button-active-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -351,12 +351,13 @@ body {
     height: 40px;
     border-radius: 50%;
     background-color: var(--iris-color);
+    transition: background-color var(--transition-dur-and-func);
 }
 
-/* .social-list-link:hover,
+.social-list-link:hover,
 .social-list-link:focus {
-    background-color: var(--social-list-link-hower-focus-bg-color);
-} */
+    background-color: var(--button-active-color);
+}
 
 .social-list-icon {
     fill: var(--cloud-color);
@@ -726,23 +727,23 @@ body {
     border: 1.25px solid var(--accent-color);
     border-radius: 2px;
     cursor: pointer;
-    /* padding: 4px 3px; */
     margin-right: 8px;
-    transition: background-color var(--transition-dur-and-func), background-image var(--transition-dur-and-func);
+    transition: background-color var(--transition-dur-and-func), background-image var(--transition-dur-and-func), border-color var(--transition-dur-and-func);
 }
 
 .modal-form-check:checked+.modal-form-check-description::before {
     background-color: var(--button-active-color);
     background-image: url("../images/galochka.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-position: center;
     border-color: var(--button-active-color);
     padding: 4px 3px;
     background-origin: padding-box;
 }
 
-/* .modal-form-check:focus+.modal-form-check-description::before {
-    /* outline: 1.25px solid var(--button-active-color); */
+.modal-form-check:focus+.modal-form-check-description::before {
+    border-color: var(--button-active-color);
+}
 
 .modal-form-check-description {
     display: flex;
@@ -756,6 +757,7 @@ body {
 
 .modal-form-submit {
     align-self: center;
+    min-width: 169px;
     padding: 16px 32px;
     border: none;
     border-radius: 4px;
@@ -768,4 +770,14 @@ body {
     background-color: var(--iris-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
+}
+
+.modal-form-submit:hover,
+.modal-form-submit:focus {
+    background-color: var(--button-active-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.privacy-link-color {
+    color: var(--iris-color)
 }

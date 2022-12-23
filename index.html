@@ -420,11 +420,21 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe">
+          <h4 class="title-social-media">Subscribe</h4>
+          <input
+            type="email"
+            name="user_email"
+            class="footer-form-input"
+            required
+            placeholder="E-mail"
+          />
+        </div>
       </div>
     </footer>
 
     <!-- BACKDROP/MODAL BUTTON -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -497,7 +507,7 @@
           />
           <label for="privacy-policy" class="modal-form-check-description"
             >I accept the terms and conditions of the&nbsp;
-            <a href="">Privacy Policy</a>
+            <a href="" class="privacy-link-color">Privacy Policy</a>
           </label>
           <button type="submit" class="modal-form-submit">Send</button>
         </form>
