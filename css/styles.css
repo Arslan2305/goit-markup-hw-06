@@ -668,6 +668,11 @@ body {
     transition: border-color var(--transition-dur-and-func);
 }
 
+.footer-input:focus {
+    outline: none;
+    border-color: var(--iris-color);
+}
+
 .footer-input::placeholder {
     font-size: 12px;
     line-height: 2;
