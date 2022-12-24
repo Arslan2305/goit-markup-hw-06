@@ -586,8 +586,15 @@ body {
     background-color: var(--social-list-link-hower-focus-bg-color);
 }
 
+/* SUBSCRIBE FOOTER */
+
 .footer-subscribe-div {
     margin-left: 80px;
+}
+
+.footer-form {
+    display: flex;
+    align-items: center;
 }
 
 .footer-input-descript {
@@ -600,6 +607,7 @@ body {
 
 .footer-input {
     width: 264px;
+    height: 40px;
     padding: 8px 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -619,11 +627,6 @@ body {
     line-height: 2;
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-form {
-    display: flex;
-    align-items: center;
 }
 
 .footer-sub-btn {
@@ -649,57 +652,6 @@ body {
 .footer-sub-btn:focus {
     background-color: var(--button-active-color);
 }
-
-
-/* НОВЕ */
-/* .footer-input {
-    width: 264px;
-    padding: 8px 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    padding-left: 16px;
-    color: var(--primary-white-color);
-    background-color: transparent;
-    transition: border-color var(--transition-dur-and-func);
-}
-
-.footer-input:focus {
-    outline: none;
-    border-color: var(--iris-color);
-}
-
-.footer-input::placeholder {
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-form {
-    display: flex;
-    align-items: center;
-}
-
-.footer-sub-btn {
-    display: flex;
-    align-items: center;
-    width: 165px;
-    padding: 8px 24px;
-    gap: 16px;
-    border: none;
-    border-radius: 4px;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.04em;
-    color: var(--primary-white-color);
-    background: var(--iris-color);
-} */
-
-
-
 
 /* BACKDROP/MODAL BUTTON */
 
