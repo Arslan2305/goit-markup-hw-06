@@ -586,6 +586,10 @@ body {
     background-color: var(--social-list-link-hower-focus-bg-color);
 }
 
+.footer-subscribe-div {
+    margin-left: 80px;
+}
+
 .footer-input-descript {
     font-weight: 500;
     font-size: 16px;
@@ -594,19 +598,12 @@ body {
     color: var(--primary-white-color);
 }
 
-/* .footer-form {
-    display: flex;
-    align-items: flex-end;
-    margin-left: auto;
-}
-
 .footer-input {
     width: 264px;
-    height: 40px;
+    padding: 8px 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    padding-left: 16px;
     color: var(--primary-white-color);
     background-color: transparent;
     transition: border-color var(--transition-dur-and-func);
@@ -624,16 +621,18 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-input-field {
+.footer-form {
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
 .footer-sub-btn {
-    min-width: 168px;
-    min-height: 40px;
+    display: flex;
+    align-items: center;
+    width: 165px;
+    padding: 8px 24px;
+    gap: 16px;
     margin-left: 24px;
-    padding: 8px 64px 8px 24px;
     border: none;
     border-radius: 4px;
     font-family: inherit;
@@ -646,17 +645,14 @@ body {
     transition: background-color var(--transition-dur-and-func);
 }
 
-.footer-sub-icon {
-    position: absolute;
-    margin-left: 16px;
-}
-
 .footer-sub-btn:hover,
 .footer-sub-btn:focus {
     background-color: var(--button-active-color);
-} */
+}
 
-.footer-input {
+
+/* НОВЕ */
+/* .footer-input {
     width: 264px;
     padding: 8px 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -700,7 +696,7 @@ body {
     letter-spacing: 0.04em;
     color: var(--primary-white-color);
     background: var(--iris-color);
-}
+} */
 
 
 
